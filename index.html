@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana;
+            padding: 10px;
+            background: #3d3242;
+            color: white;
+            text-align: center;
+        }
+
+
+        /* Header/Blog Title */
+        .header {
+            padding-left: 200px;
+            text-align: left;
+            background-color: #3d3242;
+            position: sticky;
+            top: 0%;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            color: white;
+            background-color: #3d3242;
+        }
+
+        .checklist {
+            list-style-position: inside;
+            text-align: left;
+        }
+
+        /*CSS Flexbox*/
+        .flex-screenshots {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        /*Survey form style*/
+        .survey {
+            text-align: center;
+        }
+
+        a:link {
+            color: rgb(151, 144, 144);
+        }
+
+        a:visited {
+            color: rgb(151, 144, 144);
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: white;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 100%;
+        }
+
+        img.round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header">
+        <h1>
+            <img src="GUMTREELOGO.jpeg" class="round" alt="Gumtree" width="100" height="100"
+                style="vertical-align:middle" hspace="20">
+            Gumtree Search Satisfaction Survey
+        </h1>
+    </div>
+
+    <div>
+    We've worked hard to make Gumtree a better marketplace for you. We've made a few changes and
+        we want to know what you think. 
+        <br>
+        <br>
+        Start by reading the checklist items below.
+        <br>
+        <br>
+    </div>
+
+    <h3>Checklist</h3>
+    <div class="checklist"> 
+        <ul><ul><ul>
+            <li>Read the participant information form, available <a href="Oli&Nicole PIF (participant information form).pdf" target="_blank">here</a>.</li>
+            <br>
+            <li>You'll need to take a look at the before and after screen shots below before beginning the survey.<br>
+                Remember, you can reference these anytime.</li>
+            <br>
+            <li>If you agree to be a part of this research, scroll down to complete the survey and submit your responses.</li>
+            <br>
+            <li>And, have fun!</li>
+        </ul></ul></ul>
+    </div>
+
+    <h3>Screenshots</h3>
+    <div class="flex-screenshots">
+        <div>
+        <h5>Before</h5>
+            <img src="oldgumtree.png" alt="Gumtree" width="510px" height="286px"
+            style="vertical-align:left">
+        </div>
+        <br>
+        <br>
+        <div> 
+        <h5>After</h5>
+            <img src="newGumtree.png" alt="Gumtree" width="510px" height="286px"
+            style="vertical-align:right">
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <h3>Survey</h3>
+    <div class="survey">
+        <iframe width="80%" height= "2000px" 
+            src= "https://forms.office.com/Pages/ResponsePage.aspx?id=cTYy0b7NF0S01L2yS1Exa8YsUQ3LvYhIrlZnb-ZzsiVUOTBOVFVDSUI3MkJYMEVXSkYyOTBEQk5OOC4u&embed=true" 
+                frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" 
+                    allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+    </div>
+
+    <br>
+    <br>
+    <h2>Thank you!</h2>
+
+    <small>This was created by Nicole Abiad (s3488349) using <code>Visual Studio Code</code></small>.
+
+    </body>
+
+</body>
+
+</html>
